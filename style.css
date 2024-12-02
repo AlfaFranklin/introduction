@@ -1,0 +1,80 @@
+#title{
+    background-color:#e4f9f5;
+    color: #66bfbf;
+    font-family: 'Sacramento', cursive;
+    font-size:500px;
+  
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top-cloud
+{
+    display:grid;
+    grid-column-start: 8;
+    
+}
+
+.down-cloud{
+    display:grid;
+    grid-column-start: 6;
+}
+.mountain{
+    display: flex;
+    height:400px;
+    width:700px;
+    border: 1px  white;
+    margin-top:55px;
+    margin-bottom:0;
+    padding:0;
+
+}
+
+.photo {
+    height:200px;
+    width:150px;
+    border-radius: 200px;
+    
+}
+
+.hello {
+    color: #66bfbf;
+}
+
+.skills h2 {
+  text-align: center;
+  color: #11999e;
+  font-weight: bold;
+  font-size:xx-large;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
